@@ -18,8 +18,6 @@
     "software engineering": "https://drive.google.com/drive/folders/1gImZKXMVVT8EhIBNxVecnBIOgjUMvNNc"
     "signal and system": "https://drive.google.com/drive/folders/1Bwtyvh_dMwZkYYiTmy_gOLydhyWgCwRp"
 
-    "placement statistics datasheets": "https://docs.google.com/spreadsheets/d/1lbqG5s6mBq71prY_AuBCWLkuCfKRys9XZuL2OQatFBQ/edit?gid=0#gid=0",
-
 
     "universal human value": "https://drive.google.com/drive/folders/1EEtkL6iIKdrFtZm1jFZyBsmC8Yx7nE3f",
 
