@@ -1,0 +1,26 @@
+{
+  "communication engineering (CE)": "https://drive.google.com/drive/folders/12wBdc695sHHVyryM0jg57MTkM0eNfvdu",
+    "computer networks(CN)": "https://drive.google.com/drive/folders/1Cn0IdfTlfawyWRHtKmr807Kgb9slt22S",
+ "computer vision and pattern recognition(CVPR)": "https://drive.google.com/drive/folders/1S1n3MI_ixvpQKB_NF1Cx1Ov9y0SlInTR",
+ "design and analysis of algorithm(DAA)": "https://drive.google.com/drive/folders/1RClsouim_xGqT8Uip__Ssm3oEoBmW7-r",
+ "discrete mathematics(DM)": "https://drive.google.com/drive/folders/1t90PmWVa8VQ6badBCpvQm_SPX6V9W3y4",
+
+
+"data structures and algorithms(DSA)": "https://drive.google.com/drive/folders/1j1fAlOFKELg7my_ebTAyBtZVS965sdMS",
+ "engineering economics": "https://drive.google.com/drive/folders/1Y-wtOLTk8vzKB_rJ-_xkcPNc4UH8Gvyi",
+
+
+ "industries 4.0": "https://drive.google.com/drive/folders/1zIhY_J2b70fbXIj2ceT86oXIaCvzCyAv",
+
+
+ "microprocessor and embedded system": "https://drive.google.com/drive/folders/1KY_2BC_Mz7hnl_4b9PSRw_IKeMTotmue",
+    "operating system(OS)": "https://drive.google.com/drive/folders/1wvLCcGOmKCFmO9R23cA1ZIYkkOwPLAS9",
+    "software engineering": "https://drive.google.com/drive/folders/1gImZKXMVVT8EhIBNxVecnBIOgjUMvNNc"
+    "signal and system": "https://drive.google.com/drive/folders/1Bwtyvh_dMwZkYYiTmy_gOLydhyWgCwRp"
+
+    "placement statistics datasheets": "https://docs.google.com/spreadsheets/d/1lbqG5s6mBq71prY_AuBCWLkuCfKRys9XZuL2OQatFBQ/edit?gid=0#gid=0",
+
+
+    "universal human value": "https://drive.google.com/drive/folders/1EEtkL6iIKdrFtZm1jFZyBsmC8Yx7nE3f",
+
+}
