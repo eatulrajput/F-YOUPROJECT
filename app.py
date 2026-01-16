@@ -5,7 +5,7 @@ import sqlite3
 import html
 import threading
 import requests
-import fitz  # PyMuPDF
+import pymupdf
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from urllib import robotparser
@@ -322,7 +322,7 @@ def upload_pdf():
         file.save(file_path)
 
         # extract text with PyMuPDF
-        doc = fitz.open(file_path)
+        doc = pymupdf.open(file_path)
         text = "\n".join([page.get_text("text") for page in doc])
         if not text.strip():
             text = "No text found in PDF."
@@ -394,7 +394,7 @@ def background_scrape(start_url: str, max_pages: int, delay: float):
 
                 if "pdf" in ctype or url.lower().endswith(".pdf"):
                     try:
-                        doc = fitz.open(stream=resp.content, filetype="pdf")
+                        doc = pymupdf.open(stream=resp.content, filetype="pdf")
                         content = "\n".join([p.get_text("text") for p in doc])
                         title = url.split("/")[-1] or url
                     except Exception:
