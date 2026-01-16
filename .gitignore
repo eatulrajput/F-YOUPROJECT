@@ -1,16 +1,97 @@
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
-# Database
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+pip-wheel-metadata/
+
+# =========================
+# Flask
+# =========================
+instance/
+.webassets-cache/
+flask_session/
+
+# Flask config secrets
+config.py
+*.env
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+logs/
+*.sqlite3
 *.db
+*.pid
 
-# Uploads
-uploads/
+# =========================
+# RAG / LLM artifacts
+# =========================
+# Embeddings & vector stores
+vectorstore/
+vectordb/
+chroma/
+chromadb/
+faiss_index/
+*.faiss
+*.index
+*.bin
 
-# Secrets
-.env
+# Cached documents / chunks
+data/cache/
+data/processed/
+data/embeddings/
 
-# OS files
+# Downloaded models
+models/
+llm_models/
+hf_models/
+
+# =========================
+# Jupyter / Experiments
+# =========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# =========================
+# Frontend / Assets
+# =========================
+node_modules/
+dist/
+build/
+*.map
+
+# =========================
+# OS / Editor
+# =========================
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# Docker
+# =========================
+.env.docker
+docker-compose.override.yml
+
